@@ -1,0 +1,17 @@
+# status bar font
+font pango:JetBrains Mono 10 
+
+# background image
+exec_always feh --bg-fill ~/dotfiles/.config/i3/wallpapers/girl-pink-haired.jpg
+
+# open flameshot (screenshot)
+bindsym $mod+Shift+s exec flameshot gui
+
+# start terminal (kitty)
+bindsym $mod+Return exec kitty
+
+# run picom on startup
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
+
+# run polybar on startup
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
