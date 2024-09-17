@@ -2,7 +2,7 @@
 font pango:JetBrains Mono 10 
 
 # background image
-exec_always feh --bg-fill ~/dotfiles/.config/i3/wallpapers/girl-pink-haired.jpg
+exec_always feh --bg-fill ~/dotfiles/i3/.config/i3/wallpapers/girl-pink-haired.jpg
 
 # open flameshot (screenshot)
 bindsym $mod+Shift+s exec flameshot gui
