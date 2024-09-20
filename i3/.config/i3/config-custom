@@ -15,3 +15,12 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # run polybar on startup
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+set $mod Mod4
+
+# Launch Rofi application launcher
+bindsym $mod+p exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
+
+# Launch Rofi power menu
+bindsym $mod+x exec --no-startup-id ~/.config/rofi/powermenu/type-2/powermenu.sh
+
