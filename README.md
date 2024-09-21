@@ -15,6 +15,7 @@ These dotfiles are managed in a way that supports sharing configuration with mac
 
 ---
 
+
 ## Step 1: Setup Rofi
 
 Since **Rofi** requires additional setup (installing fonts and other dependencies), follow these steps before proceeding with the dotfiles setup.
@@ -35,10 +36,11 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-4. **Remove the generated rofi directory**:
+4. **Remove the cloned repo**:
 ```shell
-rm -rf ~/.config/rofi//
+rm -rf ~/rofi/
 ```
+
 
 
 ## Step 2: Clone the Dotfiles Repository:
@@ -46,6 +48,7 @@ rm -rf ~/.config/rofi//
 ```shell
 git clone https://github.com/Kamel-CS/dotfiles.git ~/dotfiles
 ```
+
 
 
 ## Step 3: Set Up With GNU Stow
