@@ -24,3 +24,8 @@ bindsym $mod+p exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
 # Launch Rofi power menu
 bindsym $mod+x exec --no-startup-id ~/.config/rofi/powermenu/type-5/powermenu.sh
 
+# Start NetworkManager applet for Wi-Fi management
+exec --no-startup-id nm-applet
+
+# Start Blueman applet for Bluetooth management
+exec --no-startup-id blueman-applet
