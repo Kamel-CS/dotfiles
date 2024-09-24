@@ -29,3 +29,12 @@ exec --no-startup-id nm-applet
 
 # Start Blueman applet for Bluetooth management
 exec --no-startup-id blueman-applet
+
+# No title bar
+for_window [class="^.*"] border none
+
+# Margin
+gaps top 0
+gaps bottom 5
+gaps left 5
+gaps right 5
