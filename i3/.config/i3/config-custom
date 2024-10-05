@@ -2,7 +2,7 @@
 font pango:JetBrains Mono 10 
 
 # background image
-exec_always feh --bg-fill ~/dotfiles/wallpapers/girl-countryside.jpg
+exec_always feh --bg-fill ~/dotfiles/wallpapers/girl-cyber.jpg
 
 # open flameshot (screenshot)
 bindsym $mod+Shift+s exec flameshot gui
