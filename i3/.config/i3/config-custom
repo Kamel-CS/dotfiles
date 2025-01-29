@@ -1,0 +1,40 @@
+# status bar font
+font pango:JetBrains Mono 10 
+
+# background image
+exec_always feh --bg-fill ~/dotfiles/wallpapers/girl-cyber.jpg
+
+# open flameshot (screenshot)
+bindsym $mod+Shift+s exec flameshot gui
+
+# start terminal (kitty)
+bindsym $mod+Return exec kitty
+
+# run picom on startup
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
+
+# run polybar on startup
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+set $mod Mod4
+
+# Launch Rofi application launcher
+bindsym $mod+p exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
+
+# Launch Rofi power menu
+bindsym $mod+x exec --no-startup-id ~/.config/rofi/powermenu/type-5/powermenu.sh
+
+# Start NetworkManager applet for Wi-Fi management
+exec --no-startup-id nm-applet
+
+# Start Blueman applet for Bluetooth management
+exec --no-startup-id blueman-applet
+
+# No title bar
+for_window [class="^.*"] border none
+
+# Margin
+gaps top 0
+gaps bottom 5
+gaps left 5
+gaps right 5

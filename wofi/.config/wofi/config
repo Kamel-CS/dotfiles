@@ -1,0 +1,17 @@
+[wofi]
+mode=drun
+allow_images=true
+no_actions=true
+#show_icons=true
+border=3
+
+width = 500
+height = 400
+
+border-color = #44475a        # Border color to match your theme
+background-color = #1e1e2e    # Background color for dark theme
+text-color = #cdd6f4          # Text color to enhance readability
+highlight-color=#ff6347
+
+prompt = "Apps"             # Optional: Change the prompt text
+hide_scroll = true                  # Remove scroll bar for cleaner appearance
