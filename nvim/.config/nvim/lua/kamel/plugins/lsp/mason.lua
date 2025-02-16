@@ -29,6 +29,8 @@ return {
         'pylsp',
         'lua_ls',
         'jdtls',
+        'cssls',
+        'vtsls',
       },
     })
   end,
