@@ -1,8 +1,18 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
+# Java-Mason config
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
+
+# Doom Emacs Path
+export PATH="$HOME/.config/emacs/bin:$PATH"
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+
+# Set up chromium browser as the default for live server
+alias live-server="live-server --browser=chromium"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
