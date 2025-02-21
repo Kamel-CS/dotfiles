@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Java-Mason config
-export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export JAVA_HOME=/usr/lib/jvm/java-23-openjdk
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Doom Emacs Path
