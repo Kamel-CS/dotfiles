@@ -52,7 +52,7 @@ return {
     lualine.setup({
       options = {
         --theme = my_lualine_theme,
-        theme = "gruvbox",
+        theme = "catppuccin",
       },
       sections = {
         lualine_x = {

@@ -1,3 +1,3 @@
 require("kamel.lazy")
 -- colorscheme
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme catppuccin")
