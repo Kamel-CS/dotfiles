@@ -31,6 +31,7 @@ return {
         'jdtls',
         'cssls',
         'vtsls',
+        'intelephense',
       },
     })
   end,
