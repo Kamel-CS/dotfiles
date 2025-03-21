@@ -29,7 +29,7 @@ return {
         'pylsp',
         'lua_ls',
         'jdtls',
-        'cssls',
+        'tailwindcss',
         'vtsls',
         'intelephense',
       },

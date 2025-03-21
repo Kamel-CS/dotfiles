@@ -15,7 +15,7 @@ return {
         "json", "javascript", "typescript", "tsx", "yaml", "html", "css",
         "prisma", "markdown", "markdown_inline", "svelte", "graphql", "bash",
         "lua", "vim", "dockerfile", "gitignore", "query", "vimdoc", "c",
-        "python", "java",
+        "python", "java", "php",
       },
       incremental_selection = {
         enable = true,
